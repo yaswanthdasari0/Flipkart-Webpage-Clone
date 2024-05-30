@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.body{
+    font-family:'Roboto',sans-serif;
+    background-color: #f1f3f6;
+
+}
+
+/** header**/
+header{
+    background-color: white;
+    height: 56px;
+}
+
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    height: 67px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.navContainer .logo{
+    display: flex;
+    min-width: 137px;
+    height: 100%;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.navContainer .logo img{
+    width:160px;
+    padding: 20px;
+    height: 40px;
+    background-color: white;
+}
+
+.search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    background-color: white;
+}
+
+.search .search-container{
+    height: 36px;
+    width: 540px;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    display: flex;
+    background-color: white;
+}
+
+.search .search-container input{
+    width: calc(100% - 32px);
+    padding: 16px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.search .search-container button{
+    width: 36px;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+.login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: black;
+    margin-right: 8px;
+    padding: 40px;
+    background-color: white;
+}
+
+.login svg{
+    margin-left: 8px;
+    rotate: -90deg;
+}
+
+.loginIcon{
+    padding: 8px;
+    background-color: white;
+}
+
+.cart{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: black;
+    margin-right: 8px;
+    padding: 40px;
+    background-color: white;
+}
+.cartIcon{
+    width: 25px;
+    height: 20px;
+    padding: 8px;
+    background-color: white;
+}
+
+.seller{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: black;
+    margin-right: 8px;
+    padding: 40px;
+    background-color: white;
+}
+.shopIcon{
+    height: 20px;
+    width: 40px;
+    padding: 8px;
+    background-color: white;
+}
+
+.barIcon{
+    width: 7px;
+    height: 30px;
+    padding: 40px;
+    background-color: white;
+}
+
+                                 /**SECTION 1**/
+
+.section-1{
+    height: 122px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+    background-color: white;
+}
+
+.section-1-container{
+    width:1280px;
+    margin-top: 16px;
+    margin-right: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.section-1-item{
+    height: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    padding: 40px;
+}
+
+.selection-1-item img{
+    width: 64px;
+    height: 64px;
+    background-color: white;
+}
+
+
+
+
+
+                                   /*SECTION-2*/
+.section-2-container{
+    margin-top: 25px;
+    height: 268px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.section-2{
+    position: relative;
+    max-width: fit-content;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+.image {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.image img {
+    width: 100%;
+    display: block;
+}
+
+.image-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+.image-control i {
+    pointer-events: none;
+}
+
+
+
+
+                                   /**SECTION-3**/
+.section-3-container{
+    height: 362px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.section-3-best{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.section-3-list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    background-color: white;
+}
+
+.section-3-item{
+    width: 232px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 2px;
+}
+
+.section-3-item1 img{
+    max-width: 200px;
+    max-height: 200px; 
+    background-color: white;
+    justify-content: center;
+    
+}
+.section-3-item1{
+    display: inline-block;
+    overflow: hidden;
+    height: 220px;
+    width: 220px;
+    border: 1px solid grey ;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.img1{
+    transition: transform 0.2s ease;
+}
+
+.img1:hover{
+    transform: scale(1.1);
+}
+
+
+.section-3-item-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.section-3-item-price{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+
+
+                                /**SECTION-4**/
+.section-4-container{
+    height: 362px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4-top{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.section-4-list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    background-color: white;
+}
+
+.section-4-item{
+    width: 232px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 2px;
+}
+
+.section-4-item img{
+    max-width: 200px;
+    max-height: 200px;
+    background-color: white;
+    justify-content: center;
+    padding: 10px;
+}
+
+.section-4-item-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.section-4-item-price{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+
+
+
+
+                            /**SECTION-5**/
+.section-5-container{
+    height: 362px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-5-pick{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.section-5-list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    background-color: white;
+}
+
+.section-5-item{
+    width: 232px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 2px;
+}
+
+.section-5-item img{
+    max-width: 200px;
+    max-height: 200px;
+    background-color: white;
+    justify-content: center;
+    padding: 10px;
+}
+
+.section-5-item-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.section-5-item-price{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+                              /** FOOTER**/
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel-1{
+    background-color: #222f3d;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.para{
+    font-weight: bold;
+    color: grey;
+    background-color: #222f3d;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 300px;
+    border-radius: 0 2px 2px 0;
+}
+ul{
+    margin-top: 20px;
+    background-color: #222f3d;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: white;
+    background-color: #222f3d;
+}
+
+.foot-panel-2{
+    background-color: #f5f5f5;
+    height: 100%;
+    padding: 15px;
+}
+
+h1{
+    margin-top: 50px;
+    font-size: 20px;
+    color: #565656;
+}
+
+#para2{
+    margin-top: 20px;
+    font-size: 15px;
+    color: grey;
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="flipkart.css">
+    
+</head>
+<body>
+                             <!-------------Header--------------->
+ <header>
+    <div class="navContainer">
+        <div class="logo">
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="logo">
+        </div>
+        <div class="search">
+            <div class="search-container">
+                <input type="text" placeholder="Search for Products,Brands and More">
+                <button class="search-btn">
+                    <svg width="20" height="20" viewBox="0 0 17 18" class="" xmlns="http://www.w3.org/2000/svg"><g fill="#2874F1" fill-rule="evenodd"><path class="_34RNph" d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"></path><path class="_34RNph" d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467"></path></g></svg>
+                </button>
+            </div>
+        </div>
+        <div class="login">
+            <div class="loginIcon">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            Login   
+            <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="zZ3yfL"><path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_2gTTdy"></path></svg>         
+        </div>
+        <div class="cart">
+            <div class="cartIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+            </div>    
+            Cart
+        </div>
+        <div class="seller">
+            <div class="shopIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 185.8c0-6.4 1.6-12.7 4.7-18.3L82.4 25C90.8 9.6 106.9 0 124.5 0h391c17.6 0 33.7 9.6 42.1 25l77.7 142.4c3.1 5.6 4.7 11.9 4.7 18.3c0 21.1-17.1 38.2-38.2 38.2H576V496c0 8.8-7.2 16-16 16s-16-7.2-16-16V224H96V352H352V272 256h32v16V464c0 26.5-21.5 48-48 48H112c-26.5 0-48-21.5-48-48V224H38.2C17.1 224 0 206.9 0 185.8zM80 192H560h41.8c3.4 0 6.2-2.8 6.2-6.2c0-1-.3-2.1-.8-3L529.6 40.3c-2.8-5.1-8.2-8.3-14-8.3h-391c-5.9 0-11.2 3.2-14 8.3L32.8 182.8c-.5 .9-.8 1.9-.8 3c0 3.4 2.8 6.2 6.2 6.2H80zM96 464c0 8.8 7.2 16 16 16H336c8.8 0 16-7.2 16-16V384H96v80z"/></svg>
+            </div>
+            Become a Seller
+        </div>
+        <div class="barIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/></svg>
+        </div>
+    </div>
+ </header>
+ 
+                           <!-----------SECTION 1----------->
+                           <section class="section-1">
+                            <div class="section-1-container">
+                                <div class="section-1-item">
+                                    <img class="img1" src="images/image1.png" alt="">
+                                    Grocery
+                                </div>
+                                <div class="section-1-item">
+                                    <img class="img1" src="images/image2.png" alt="">
+                                    Mobiles
+                                </div>
+                                <div class="section-1-item">
+                                    <img class="img1" src="images/image3.png" alt="">
+                                    Fashion
+                                </div>
+                                <div class="section-1-item">
+                                    <img class="img1" src="images/image4.png" alt="">
+                                    Electronics
+                                </div>
+                                <div class="section-1-item">
+                                    <img class="img1" src="images/image5.png" alt="">
+                                    Home
+                                </div>
+                                <div class="section-1-item">
+                                    <img class="img1" src="images/image6.png" alt="">
+                                    Appliences
+                                </div>
+                                <div class="section-1-item">
+                                    <img class="img1" src="images/image7.png" alt="">
+                                    Wheelers
+                                </div>
+                                <div class="section-1-item">
+                                    <img class="img1" src="images/image8.png" alt="">
+                                    Travel
+                                </div>
+                            </div>
+                           </section>
+
+
+
+
+
+                           <!-------------------SECTION-2-------------------->
+                           <section class="section-2">
+                            <div class="section-2-container">
+                                <div class="image active">
+                                    <img src="images/section2img.jpg" alt="img">
+                                </div>
+                                <div class="image">
+                                    <img src="images/image2src.png" alt="img">
+                                </div>
+                                <div class="image">
+                                    <img src="images/image3src.png" alt="img">
+                                </div>
+                            </div>
+                            <button class="image-control prev" onclick="prevSlide()"><</button>
+                            <button class="image-control next" onclick="nextSlide()">></button>
+                           </section>
+
+
+
+
+
+
+
+                           <!------------------SECTION-3--------------------->
+                           <section class="section-3">
+                            <div class="section-3-best">
+                                Best of Electronics
+                            </div>
+                            <div class="section-3-container">
+                                <div class="section-3-list">
+                                    <div class="section-3-item">
+                                        <div class="section-3-item1"><img class="img1"src="images/imagesec3.png" alt=""></div>
+                                        <div class="section-3-item-head">Top Selling Stationary</div>
+                                        <div class="section-3-item-price">From ₹49</div>
+                                    </div>
+
+                                    <div class="section-3-item">
+                                        <div class="section-3-item1"><img class="img1"src="images/image2sec3.png" alt=""></div>
+                                        <div class="section-3-item-head">Geared cycles</div>
+                                        <div class="section-3-item-price">UPto 70%</div>
+                                    </div>
+                                    
+
+                                    <div class="section-3-item">
+                                        <div class="section-3-item1"><img class="img1" src="images/image3sec3.png" alt=""></div>
+                                        <div class="section-3-item-head">Gym Essentials</div>
+                                        <div class="section-3-item-price">Upto 70% off</div>
+                                    </div>
+                                    
+
+                                    <div class="section-3-item">
+                                        <div class="section-3-item1"><img class="img1" src="images/image4sec3.png" alt=""></div>
+                                        <div class="section-3-item-head">Soft toys</div>
+                                        <div class="section-3-item-price">From ₹350</div>
+                                    </div>
+                                
+
+
+                                    <div class="section-3-item">
+                                        <div class="section-3-item1"><img class="img1"src="images/image5sec3.png" alt=""></div>
+                                        <div class="section-3-item-head">Microphone</div>
+                                        <div class="section-3-item-price">From ₹340</div>
+                                    </div>
+                                    
+
+                                    <div class="section-3-item">
+                                        <div class="section-3-item1"><img class="img1"src="images/image6sec3.png" alt=""></div>
+                                        <div class="section-3-item-head">Guitar</div>
+                                        <div class="section-3-item-price">Upto 30% off</div>
+                                    </div>
+                                    
+
+                                    <div class="section-3-item">
+                                        <div class="section-3-item1"><img class="img1"src="images/image7sec3.png" alt=""></div>
+                                        <div class="section-3-item-head">Musicaal Instruments</div>
+                                        <div class="section-3-item-price">From ₹4999</div>
+                                    </div>
+                                    
+
+                                </div>
+                            </div>
+                           </section>
+
+
+
+
+
+
+                           <!------------------------SECTION-4------------------------->
+                           <section class="section-4">
+                            <div class="section-4-top">
+                                Top Rated Products
+                            </div>
+                            <div class="section-4-container">
+                                <div class="section-4-list">
+                                    <div class="section-4-item">
+                                        <div class="section-3-item1"><img class="img1" src="images/image1section4.png" alt=""></div>
+                                        <div class="section-4-item-head">Threadmill</div>
+                                        <div class="section-4-item-price">Upto 10% off</div>
+                                    </div>
+                                    <div class="section-4-item">
+                                        <div class="section-3-item1"><img class="img1" src="images/image2sec4.png" alt=""></div>
+                                        <div class="section-4-item-head">Books And Movies</div>
+                                        <div class="section-4-item-price">Min 20% Off</div>
+                                    </div>
+                                    <div class="section-4-item">
+                                        <div class="section-3-item1"><img class="img1" src="images/image3sec4.png" alt=""></div>
+                                        <div class="section-4-item-head">Coffee Powder</div>
+                                        <div class="section-4-item-price">Upto 80% off</div>
+                                    </div>
+                                    <div class="section-4-item">
+                                        <div class="section-3-item1"><img class="img1" src="images/image4sec4.png" alt=""></div>
+                                        <div class="section-4-item-head">Yogamat</div>
+                                        <div class="section-4-item-price">From ₹159</div>
+                                    </div>
+                                    <div class="section-4-item">
+                                        <div class="section-3-item1"><img class="img1" src="images/image5sec4.png" alt=""></div>
+                                        <div class="section-4-item-head">Monitor</div>
+                                        <div class="section-4-item-price">From ₹7999</div>
+                                    </div>
+                                    <div class="section-4-item">
+                                        <div class="section-3-item1"><img class="img1" src="images/image6sec4.png" alt=""></div>
+                                        <div class="section-4-item-head">Trimmer</div>
+                                        <div class="section-4-item-price">Upto 10% off</div>
+                                    </div>
+                                </div>
+                            </div>
+                           </section>
+
+
+
+
+
+
+
+                            <!------------------------SECTION-4------------------------->
+                            <section class="section-5">
+                                <div class="section-5-pick">
+                                    Pick Your Styles
+                                </div>
+                                <div class="secction-5-container">
+                                    <div class="section-5-list">
+                                        <div class="section-5-item">
+                                            <div class="section-3-item1"><img class="img1" src="images/image1sce5.png" alt=""></div>
+                                            <div class="section-4-item-head">Bags,Trollys</div>
+                                            <div class="section-4-item-price">70%-50%+Extra 10% Off</div>
+                                        </div>
+                                        <div class="section-5-item">
+                                            <div class="section-3-item1"><img class="img1" src="images/image2sec5.png" alt=""></div>
+                                            <div class="section-4-item-head">U.S.Polo Assn</div>
+                                            <div class="section-4-item-price">Min 40% Off</div>
+                                        </div>
+                                        <div class="section-5-item">
+                                            <div class="section-3-item1"><img class="img1" src="images/image3sec5.png" alt=""></div>
+                                            <div class="section-4-item-head">Sweatshirts</div>
+                                            <div class="section-4-item-price">From ₹249</div>
+                                        </div>
+                                        <div class="section-5-item">
+                                            <div class="section-3-item1"><img class="img1" src="images/image4sec5.png" alt=""></div>
+                                            <div class="section-4-item-head">Sabse Badi Deals</div>
+                                            <div class="section-4-item-price">Min 70% Off</div>
+                                        </div>
+                                        <div class="section-5-item">
+                                            <div class="section-3-item1"><img class="img1" src="images/image6sec6.png" alt=""></div>
+                                            <div class="section-4-item-head">Trendy Gowns</div>
+                                            <div class="section-4-item-price">Under ₹699</div>
+                                        </div>
+                                        <div class="section-5-item">
+                                            <div class="section-3-item1"><img class="img1" src="images/image8sec8.png" alt=""></div>
+                                            <div class="section-4-item-head">Kurta Sets</div>
+                                            <div class="section-4-item-price">Min 70% Off</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+
+        <!------------------FOOTER------------------->
+    <div class="footer-panel-2">
+        <h1 id="head">Top Stories: Brand Directory</h1>
+        <p id="para2">MOST SEARCHED FOR ON FLIPKART: iPhone 15 iPhone 15 Plus iPhone 15 Pro Blue Phone 15 Pro Black iPhone 15 Pro Max Blue iPhone 15 Pro Max Black | Vivo x 100 | OnePlus Nord CE 3 Lite 50 Spoyl Store SAMSUNG FPS SAMSUNG FoldS Flipkart Axis Bank Super Elite Credit card | 5G Mobile Phones | Primebook Laptops | Moto Edge 40 Grievance Redressal | OPPO Reno7 Pro 50 iPhone 13 | Help
+
+            Centre Track Orders Manage Orders Return Orders Gift Cards Store Flipkart Axis Bank Credit Card Pay Later
+            
+            MOBILES Redmi 12 50 Realme 12+ 50 Motorola G84 | Realme C53 | Infinix Smart 8 | Samsung Galaxy 523 50 Samsung Galaxy S21 FE 5G Qualcomm | vivo V30 | Samsung Galaxy 524 5G Samsung Galaxy S24+
+            
+            50 iPhone 12 64GB | Phone 12 Pro 51208 | iPhone 12 128GB | Vivo Y15 SAMSUNG Galaxy S21 FE 5G Infinix HOT 301 | Realme 10 Pro 5G | MOTOROLA G62 50 Nothing Phone REDMI Note 12 Pro 50 n SMART 7 Vivo Y12 | Oppo A12 | Motorola 5g Phone | Realme Sg Smartphone Apple 5g Phone | Iqoo 5g Phones | Oneplus 5g Phones | Vivo 5g Phones | Oppo 5g Smart Phones | Oppo F1S Oppo A31 Samsung A71 Samsung A51 Samsung A31 | Phone 11 iPhone 11 Pro 4G Mobile | Nokia Mobile | Samsung Mobile | iphone | Oppo Mobile | Vivo Mobile
+            
+            CAMERA GoPro Action Camera Nikon Camera Canon Camera Sony Camera Canon DSLR Nikon DSLR
+            
+            LAPTOPS Asus ROG Ally MacBook Pro M2 Premium Laptop | ASUS ROG Strix SCAR 16 (2023) Core i9 13th Gen ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen | ASUS Zenbook 14 OLED (2022) Reaime Book Prime Core I5 17th Gen Microsoft Surface Go Pentium 128GB Apple Laptops | Acer Laptops | Lenovo Laptops | Dell Laptops | Asus Laptops | HP Laptops | Gaming Laptops 2 in 1 Laptops Laptops Dell latest
+            
+            (aptops 2022 HP Jatiest laptops 2022 | Infinix INBook V1 Plus SAMSUNG Galaxy Book3 | 12th Gen Intel Core Laptops
+            
+            TVS Nokia TV | Panasonic TV | Thomson TV MX Pro Realme TV Motorola TV | OnePlus TVs LG TV | TV | Sony TV Samsung TV Android Television | Iffalcon Tv MTV
+            
+            LARGE APPLIANCES: Television | Washing Machines | Refrigerators | Air Conditioners | Electric Cookers | Electric Jug(Heater)/Travel Kettles Induction Cooktops Inverters/stabilizer trons Non Box Mirer
+            
+            Grinder Juicer Wet Grinders | Chimneys Microwave Ovens Vacuum Cleaners Water Puntier Fan
+            
+            CLOTHING Green bridal lehenga | Tops Shoes Sunglasses Bridal Blouse | Half saree blouse designs Designer blouses | Blouse designs Shirts Cotton saree blouse
+            
+            designs Tinierts Jeans Sarees Dresses Orie pieces Groom wedding sherwani | Designer Salwar Suits | Bra | Cotton simple biouse designs | Banarasi saree blouse designs / Stylish biouse axtin design | Track Pant Blouse neck designs | Kurtas | Party Dresses Palazzo Suits | Anarkall Gowns | Cut out dress | Salwar Suite Kurtis | Designer Sarees Leggings Shorts Georgette Sarees Etnic Wear uppada patt
+            
+            sarves Blouse back design Jodhpur pants
+            
+            FOOTWEAR: Adidas Shoes | Reebok Shoes Nike Shoes | Puma Shoes Boots Bata Shoes Woodland Shoes | Skechers Shoes | Sneakers Womens Boots Sports Shoes Loafers Sandals | Lotto Sports
+            Shoes Casual Shoes Womens Skechers Shoes Asics Sports Shoes | Formal Shoes | School Shoes
+            OfAamirvaad Atta Tea
+            GROCERIES Ponele Carocery Voucher Hand Wash Soap | Cashew Nuts | Sunflower Of Eggs | Toilet Cleaner Harpic Toilet Cleaner Dettol Soap | Mustard Offiscats Cheese Patinya Atta Formare
+            4310) Трникет Скате
+            BEST SELLING ON FLIPKART Heaquhones Best Gas Geyser | Kichen Geyser | huti Benders | Portable Air Cooler Best Air Cooler Bags | Hatachi Refrigerator Dour flocke Tys Candless Wall Clocks Raty Food Chocolates | Cycles) Calculators | Lips Mask Ventiv UPS Fastrack Watches | Wanets | Earnings | Gona Coins Reame Pad Mini Handbags coment Mist DuoPole
+            FURNITURE Fessere Wardrона | Мало | TV Chairs Servesen Bags Office Chairs | Cтрыка
+            Sofa wiwelt Meties Green Brown</p>
+    </div>
+    <div class="foot-panel-1">
+        <ul>
+            <p class="para">ABOUT</p>
+            <a>Contact us</a>
+            <a>Careers</a>
+            <a>Flipkart Stories</a>
+        </ul>
+
+        <ul>
+            <p class="para">GROUP COMPANIES</p>
+            <a>Myntra</a>
+            <a>Flipkart Wholesale</a>
+            <a>Cleartrip</a>
+            <a>Shopsy</a>
+        </ul>
+        <ul>
+            <p class="para">HELP</p>
+            <a>Payments</a>
+            <a>Shipping</a>
+            <a>Cancellations</a>
+            <a>FAQ</a>
+        </ul>
+        <div class="vl"></div>
+        <ul>
+            <p class="para">Mail us</p>
+            <a>Flipkart Internet Private Limited,</a>
+            <a>Buildings Alyssa,Begonia &</a>
+            <a>Clove Embassy Tech Village,</a>
+            <a>Outer Ring Road, Deverabeesanahalli Village,</a>
+            <a>Bengaluru, 560103,</a>
+            <a>Karnataka, India</a>
+        </ul>
+    </div>
+    <script src="flipkart.js"></script>
+</body>
+</html>
